@@ -7,6 +7,7 @@ A demo repository to show a language-detection bug in vs-code.
 ## Table of contents
 
   * [Add description for the vscode bug](#add-description-for-the-bug)
+  * [Add picture to show the problem has trippled](add-picture-to-show-the-problem-trippled)
 
 <hr>
 
@@ -32,4 +33,11 @@ The version of vscode used:
     Node.js: 12.4.0
     V8: 7.6.303.31-electron.0
     OS: Windows_NT x64 10.0.18363
+
+<a id="add-picture-to-show-the-problem-trippled"></a>
+## Add picture to show the problem has trippled
+
+The further you continue to commit - the more often the error seems to appear:
+
+![vscode-bug-trippled](./2020-01-07-235000-vscode-problem-trippled.png "vscode-bug-trippled")
 
