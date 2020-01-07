@@ -1,26 +1,35 @@
 # vscode-bug
 
-A demo repository to show a language-detection bug in vs-code. For some reason vscode  
-claims that a non-existing `package.json` in the repository is meant to be JSON,  
-allthough it's this readme which is written in Markdown (.md).
+A demo repository to show a language-detection bug in vs-code.
 
 <hr>
 
 ## Table of contents
 
-  * [Add README.md with table of contents](#add-readme-with-toc)
+  * [Add description for the vscode bug](#add-description-for-the-bug)
 
 <hr>
 
 <a id="add-readme-with-toc"></a>
-## Add readme with table of contents
+## Add description for the vscode bug
 
-Lorem ipsum dolor sit amet:
+For some reason vscode claims that a non-existing `package.json` in the repository  
+is meant to be JSON, allthough it's this readme which is written in Markdown (.md).
 
- * Lorem ipsum 1
- * Lorem ipsum 2
- * Lorem ipsum 3
+The language-mode auto-detection seems not to work properly before this commit.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor  
-invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam  
-et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.
+This picture shows the problem:
+
+![vscode-bug](./2020-01-07-234000-vscode-expected-json.png "vscode-bug")
+
+The version of vscode used:
+
+    Version: 1.41.1 (system setup)
+    Commit: 26076a4de974ead31f97692a0d32f90d735645c0
+    Date: 2019-12-18T14:58:56.166Z
+    Electron: 6.1.5
+    Chrome: 76.0.3809.146
+    Node.js: 12.4.0
+    V8: 7.6.303.31-electron.0
+    OS: Windows_NT x64 10.0.18363
+
